@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="500" viewBox="0 0 300 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="500" rx="20" fill="#0d1117"/>
+  <path d="M150 50C150 50 50 150 50 250C50 350 150 450 150 450" stroke="#3b82f6" stroke-width="2"/>
+  <path d="M150 50C150 50 250 150 250 250C250 350 150 450 150 450" stroke="#3b82f6" stroke-width="2"/>
+  <circle cx="150" cy="250" r="100" stroke="#3b82f6" stroke-width="2" fill="none"/>
+  <circle cx="150" cy="250" r="50" stroke="#3b82f6" stroke-width="2" fill="none">
+    <animateTransform
+      attributeName="transform"
+      type="rotate"
+      from="0 150 250"
+      to="360 150 250"
+      dur="10s"
+      repeatCount="indefinite"
+    />
+  </circle>
+  <circle cx="150" cy="250" r="20" fill="#3b82f6">
+    <animate
+      attributeName="r"
+      values="20;25;20"
+      dur="2s"
+      repeatCount="indefinite"
+    />
+  </circle>
+</svg>
